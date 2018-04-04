@@ -14,7 +14,7 @@ class email:
 		msg['To'] = toaddr
 		msg['Subject'] = "Fire Broke Out. Please Respond."
  
-		body = "Address : RVCE MCA Lab, Bangalore\n"+"Temprature : "+temp+"\n"+"Life Pregence : "+motion+"\n"+"Active Fire : "+fire+"\n"
+		body = "Address :  Put Address\n"+"Temprature : "+temp+"\n"+"Life Pregence : "+motion+"\n"+"Active Fire : "+fire+"\n"
  
 		msg.attach(MIMEText(body, 'plain'))
 
@@ -46,7 +46,7 @@ class email:
 		msg['To'] = toaddr
 		msg['Subject'] = "Fire Broke Out. Please Respond."
  
-		body = "Address : RVCE MCA Lab, Bangalore\n"+"Gas Leakage Is Reported Here"
+		body = "Address : Put Address\n"+"Gas Leakage Is Reported Here"
  
 		msg.attach(MIMEText(body, 'plain'))
  
